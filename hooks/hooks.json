@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/sessao.js\"" } ] }
+    ],
+    "PreToolUse": [
+      { "matcher": "Agent|Task", "hooks": [ { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/gancho.js\"" } ] }
+    ]
+  }
+}

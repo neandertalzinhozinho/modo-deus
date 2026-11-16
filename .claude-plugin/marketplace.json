@@ -1,0 +1,11 @@
+{
+  "name": "modo-deus-backup",
+  "owner": { "name": "tromb" },
+  "plugins": [
+    {
+      "name": "modo-deus",
+      "source": "./",
+      "description": "Liga o Modo Deus do guia por projeto e aplica a escada de modelo e esforço."
+    }
+  ]
+}

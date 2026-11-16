@@ -1,0 +1,5 @@
+# sobras de execucao
+*.tmp
+*.trava
+testes/e2e/RESULTADO-parcial.md
+node_modules/

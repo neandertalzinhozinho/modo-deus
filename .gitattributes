@@ -1,0 +1,3 @@
+# Guardar e devolver cada arquivo exatamente como esta, sem trocar quebras de linha.
+# Os testes comparam os textos byte a byte com o guia original.
+* -text
